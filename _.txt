@@ -1,2 +1,5 @@
 Run 
 ng serve
+
+Novo Componente 
+ng generate component components/header
