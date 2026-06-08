@@ -5,7 +5,12 @@
   --medium-text: #939393;
 }
 
-
+* {
+  font-family: 'Gotham';
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 @font-face {
   font-family: 'Gotham';
