@@ -5,3 +5,5 @@ Novo Componente
 ng generate component components/header
 ng generate component components/forms
 
+Novo Service
+ng generate service service/get-units
