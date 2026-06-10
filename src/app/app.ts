@@ -8,6 +8,7 @@ import { GetUnits } from './services/get-units';
 import { Location } from './types/locations.interface';
 import { CommonModule  } from '@angular/common';
 import { Legend } from "./components/legend/legend";
+import { Footer } from "./components/footer/footer";
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,8 @@ import { Legend } from "./components/legend/legend";
     Forms,
     CardsList,
     CommonModule,
-    Legend
+    Legend,
+    Footer
 ],
   templateUrl: './app.html',
   styleUrl: './app.scss',
